@@ -1,6 +1,5 @@
-# Getting Started
-Install the dependencies and run the project
-HTML CSS Basics
+# Hometown homepage
+basic html css project
 -flex container
 -background image
 -hover
