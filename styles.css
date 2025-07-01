@@ -9,10 +9,120 @@ DARK BLUE: #1D3557
 */
 
 body {
-    margin: 0;
+  margin: 0;
+  text-align: center;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/ctr.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 385px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#hero-title {
+  color: #ffffff;
+  background-color: #597445;
+  margin: 5px 0 10px 0;
+  font-size: 2.125rem;
+}
+
+#hero-subtitle {
+  color: #ffffff;
+  background-color: #ffcf9d;
+  font-size: 1.17rem;
+}
+
+#hero-title,
+#hero-subtitle {
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.activities {
+  background-color: #ffebd4;
+  margin-top: 0;
+  height: 360px;
+  padding: 20px;
+}
+
+.activities-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 3.375rem;
+  color: #597445;
+}
+
+.Chittoor-places {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+.activities-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.img-info h4 {
+    color: #597445;
+    font-weight: bold;
+}
+
+.img-info p {
+    color: #819A91;
+    font-size: 1rem;
     text-align: center;
 }
 
-img {
-    width: 100px;
+
+.guide-section {
+    padding: 20px;
 }
+
+.avatar {
+    width: 150px;
+    margin-right: 20px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #CAE8BD;
+    color: #597445;
+    border-radius: 12px;
+    border-bottom: 8px solid #D5C7A3;
+}
+.card:hover {
+    cursor: pointer;
+    background-color: #597445;
+    color: #CAE8BD;
+    border: 8px solid #BDB395;
+}
+
+
