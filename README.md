@@ -1,9 +1,10 @@
 # Getting Started
 Install the dependencies and run the project
-```
-npm install
-npm start
-```
+HTML CSS Basics
+-flex container
+-background image
+-hover
+-color palette
 
 
 Happy Coding!
